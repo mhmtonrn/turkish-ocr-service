@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: monar2/ocr:latest
+          tags: monar2/turkish-ocr-service:$(date +%s)
