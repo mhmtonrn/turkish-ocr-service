@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/mhmtonrn/turkish-ocr-service/actions/workflows/docker-image.yml/badge.svg?branch=master)](https://github.com/mhmtonrn/turkish-ocr-service/actions/workflows/docker-image.yml)
+
 # turkish-ocr-service
 
 ## docker run
