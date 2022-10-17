@@ -1,4 +1,4 @@
-name: ci
+name: docker-buil-push
 
 on:
   push:
@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: monar2/turkish-ocr-service:$(date +%s)
+          tags: monar2/turkish-ocr-service:latest
