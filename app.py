@@ -14,7 +14,6 @@ def hello_world():  # put application's code here
 @app.route('/loadImage', methods=['POST'])
 def login():
     content = request.get_json(silent=True)
-    print(content)
     ex = ExtractText()
     result = ex.extract(content["image"])
     return jsonify(text=result)
